@@ -31,7 +31,7 @@
 
 #define STRADDR_SZ	(50) /* max size IPv6 number format */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	struct addrinfo hints, *res = NULL, *rp = NULL;
 	int errGetAddrInfoCode = 0, errConnect = 0;
