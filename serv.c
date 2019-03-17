@@ -131,7 +131,7 @@ int daemonize(void)
 	return(1);
 }
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	pid_t p;
 	int listenfd = 0, connfd = 0, readRet = 0;
