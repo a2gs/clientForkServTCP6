@@ -3,7 +3,7 @@
  *
  * A C TCPIPv6 server (fork() after accept())
  *
- * Public Domain
+ * MIT License
  *
  */
 
