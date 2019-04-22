@@ -3,7 +3,7 @@
  *
  * A C TCPIPv4 server/client (fork() after accept() / with DNS resolution)
  *
- * Public Domain
+ * MIT License
  *
  */
 
