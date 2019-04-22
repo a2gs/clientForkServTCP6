@@ -3,7 +3,7 @@
  *
  * A C TCPIPv6 client (with DNS resolution)
  *
- * Public Domain
+ * MIT License
  *
  */
 
