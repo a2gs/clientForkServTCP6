@@ -215,7 +215,7 @@ int main(int argc, char *argv[])
 				fprintf(log, "msg: [%s]\n", msg);
 			}
 
-			close(connfd);
+			shutdown(connfd);
 			break; /* for() */
 
 		}else if(p == -1)
